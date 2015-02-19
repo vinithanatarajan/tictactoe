@@ -22,7 +22,7 @@ $('button').click(function(){
 
 $('td').click(function){
 	controller.placeCounter();
-
+	controller.checkIfDone();
 }
 
 });
