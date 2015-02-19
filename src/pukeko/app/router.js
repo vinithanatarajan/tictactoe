@@ -17,9 +17,13 @@ var view = new View();
 console.log(controller);	
 
 $('button').click(function(){
-	console.log("ready1");
-	console.log(controller);
 	controller.startGame();
 	view.showBoard();
+
+$('td').click(function){
+	controller.placeCounter();
+
+}
+
 });
 });
