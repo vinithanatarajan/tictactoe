@@ -3,7 +3,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: red;
+	background-color: white;
 
 }
 
@@ -45,10 +45,26 @@ body {
 }
 
 .nav {
-	background-color: black;
+	background-color: #34696f;
 	margin: 0;
 	line-height: 250%;
-	color: white; 
+	color: white;
+	font-size: 22px; 
 	text-align: center;
 }
+button {
+    display: block;
+    height: 100px;
+    width: 300px;
+    background: #34696f;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    font-size: 18px;
+    color: white;
+}
+
 
