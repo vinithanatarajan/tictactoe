@@ -6,11 +6,10 @@ function View() {
 		$('.tic_table td').css("background-color", "green");
 	};
 
-	this.startGame = function() {
-		$('button').css("display":"none");
-		$('tic_table').css("display":"block");
+	this.showBoard = function() {
+		$('button').css("display", "none");
+		$('.game_board').css("display", "block");
 	};
-
 
 	
 }

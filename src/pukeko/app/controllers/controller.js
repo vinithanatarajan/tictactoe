@@ -1,18 +1,13 @@
 function Controller() {
 
-    var view = new View();
+    this.view = new View();
+        this.view.clearScreen();
 
-    var initialise = function() {
 
-        view.ClearScreen();
 
-    };
-
-    var startGame = function() {
-        initialise();
-        view.showBoard();
+    
 
     };
-
-
-}
+Controller.prototype.startGame = function() {
+        this.view.showBoard();
+    };
