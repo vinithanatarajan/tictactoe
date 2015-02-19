@@ -1,5 +1,5 @@
 function clickListener() {
-	document.body.onclick = function(e) {
+	document.button.onclick = function(e) {
 		var controller = new Controller();
 		if(e.click) {
 						controller.initialise();
