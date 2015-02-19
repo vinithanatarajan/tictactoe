@@ -6,7 +6,10 @@ function Controller() {
 
         view.ClearScreen();
 
+    };
 
+    var startGame = function() {
+        view.showBoard();
 
     };
 
