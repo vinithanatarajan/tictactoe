@@ -9,6 +9,7 @@ function Controller() {
     };
 
     var startGame = function() {
+        initialise();
         view.showBoard();
 
     };
