@@ -1,15 +1,10 @@
-function View() {
+function View() {}
 
-	
-
-	this.clearScreen = function() {
+View.prototype.clearScreen = function() {
 		$('.tic_table td').css("background-color", "green");
 	};
 
-	this.showBoard = function() {
+View.prototype.showBoard = function() {
 		$('button').css("display", "none");
 		$('.game_board').css("display", "block");
 	};
-
-	
-}
