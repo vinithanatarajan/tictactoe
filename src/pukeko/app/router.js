@@ -22,8 +22,10 @@ $('button').click(function(){
 });
 
 $('td').click(function(e){
+	console.log(e.target)
 	controller.placeCounter(e.target);
-	controller.checkIfDone();
+
+	// controller.checkIfDone();
 });
 
 

@@ -10,5 +10,5 @@ View.prototype.showBoard = function() {
 	};
 
 View.prototype.counterPlaced = function(playerid, target){
-	$(target)
+	$(target).addClass(playerid);
 };
