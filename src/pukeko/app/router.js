@@ -21,9 +21,11 @@ $('button').click(function(){
 	view.showBoard();
 });
 
+var sum = 0;
 $('td').click(function(e){
 	console.log(e.target)
-	controller.placeCounter(e.target);
+	sum++;
+	controller.placeCounter(e.target,sum);
 
 	// controller.checkIfDone();
 });
