@@ -25,6 +25,7 @@ element.style {
   height: 60px;
   width: 50px;
 
+
 }
 
 .tic_table tr#row_2, tr#row_1 {
@@ -44,20 +45,23 @@ element.style {
 }
 
 .player_1 {
-  background-color: black;
+  /*background-color: black;*/
   height: 30px;
-  width: 25px;
-  border: 1px solid green;
-  padding: 10px solid black;
+  width: 30px;
+  border-radius: 15px;
+  background: url(./jesse.png) no-repeat;
+ 
 
 }
 
 
 .player_2 {
-  background-color: yellow;
+/*  background-color: yellow;*/
   height: 30px;
-  width: 25px;
-  border: 1px solid white;
+  width: 30px;
+  border-radius: 15px;
+  background: url(./dan.png) no-repeat;
+
 }
 
 .squares {
