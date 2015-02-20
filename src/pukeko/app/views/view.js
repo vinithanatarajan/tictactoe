@@ -8,3 +8,7 @@ View.prototype.showBoard = function() {
 		$('button').css("display", "none");
 		$('.game_board').css("display", "block");
 	};
+
+View.prototype.counterPlaced = function(playerid, target){
+	$(target)
+};
