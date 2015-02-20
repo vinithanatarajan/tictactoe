@@ -16,9 +16,11 @@ var controller = new Controller();
 var view = new View();
 console.log(controller);
 
+
 $('button').click(function(){
 	controller.startGame();
 	view.showBoard();
+	$('.game_board').delay(90000).fadeOut('slow');
 });
 
 var sum = 0;
