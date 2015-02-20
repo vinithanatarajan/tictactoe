@@ -1,8 +1,9 @@
 function Controller() {
 
     this.view = new View();
-    this.view.clearScreen();
-    }
+    // this.view.clearScreen();
+    };
+
 Controller.prototype.startGame = function() {
         this.view.showBoard();
         this.player1 = new Player("player_1");
