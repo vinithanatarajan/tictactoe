@@ -13,11 +13,10 @@ Controller.prototype.placeCounter = function(target,sum) {
   if(sum%2==1){
     this.view.counterPlaced(this.player1.id, target)
     }
-  else{
-  this.view.counterPlaced(this.player2.id, target)
-  }
-
-};
+    else{
+      this.view.counterPlaced(this.player2.id, target)
+    }
+  };
 
 Controller.prototype.checkIfDone = function(){
 	//  this.model.isDone();

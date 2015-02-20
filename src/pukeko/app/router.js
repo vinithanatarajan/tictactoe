@@ -21,14 +21,23 @@ $('button').click(function(){
 	view.showBoard();
 });
 
+
+
 var sum = 0;
-$('td').click(function(e){
-	console.log(e.target)
-	sum++;
-	controller.placeCounter(e.target,sum);
 
+	$('td').click(function(e){
+		console.log(e.target)
+		sum++;
+		controller.placeCounter(e.target,sum);
+		finished();
+	});
+
+var finished= function(){
+	if (sum >9){
+		$('div').prepend('<img id="finish" src="http://widehdwalls.com/images/big/birman_catr-777312.jpg"/>');
+		$('div').prepend('<p>Thanks you for Purr-laying</p>');
+		$('div.game_board').css("display","none");
+	};
+};
+});
 	// controller.checkIfDone();
-});
-
-
-});
