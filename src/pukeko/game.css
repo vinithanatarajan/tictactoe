@@ -1,38 +1,58 @@
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e3e3e3;
 
+}
+element.style {
+  background-color: none;
 }
 
 .tic_table {
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 300px;
-    text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 300px;
+  text-align: center; 
+  border-collapse: collapse;
+/*border: 0;*/
 }
 
+
 .tic_table td {
-  background-color: green;
+
   height: 60px;
   width: 50px;
-  border:2px solid white;
+
+}
+
+.tic_table tr#row_2, tr#row_1 {
+
+  border-bottom: 5px solid black;
+}
+
+.tic_table td.first, td.second {
+  border-right: 5px solid black;
+
 }
 
 .game_board {
-	height: 600px;
-	line-height: 600px;
-	display: none;
+  height: 600px;
+  line-height: 600px;
+  display: none;
 }
 
 .player_1 {
-  background-color: blue;
+  background-color: black;
   height: 30px;
   width: 25px;
-  border: 1px solid white;
+  border: 1px solid green;
+  padding: 10px solid black;
+
 }
+
+
 .player_2 {
   background-color: yellow;
   height: 30px;
@@ -45,12 +65,12 @@ body {
 }
 
 .nav {
-	background-color: #34696f;
-	margin: 0;
-	line-height: 250%;
-	color: white;
-	font-size: 22px; 
-	text-align: center;
+  background-color: #34696f;
+  margin: 0;
+  line-height: 250%;
+  color: white;
+  font-size: 22px; 
+  text-align: center;
 }
 button {
     display: block;
@@ -66,5 +86,7 @@ button {
     font-size: 18px;
     color: white;
 }
+
+
 
 
