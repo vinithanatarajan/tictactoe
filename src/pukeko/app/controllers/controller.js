@@ -5,13 +5,13 @@ function Controller() {
     };
 Controller.prototype.startGame = function() {
         this.view.showBoard();
-        this.player1 = new Player("player1");
-        this.player2 = new Player("player2");
+        this.player1 = new Player("player_1");
+        this.player2 = new Player("player_2");
     };
 Controller.prototype.placeCounter = function(target) {
+		 this.view.counterPlaced(this.player1.id, target);
 
-		  this.view.counterPlaced(player1.id, target);
 };
-Controller.prototype.checkifdone = function(){
-	 this.model.isDone();
-}
+Controller.prototype.checkIfDone = function(){
+	//  this.model.isDone();
+};
